@@ -40,7 +40,7 @@
           <!-- Menu item -->
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="./about.html">About</a>
@@ -132,129 +132,69 @@
     <!-- NAVBAR END -->
 
     <!-- HEADER START -->
-    <header class="main-header mt-5 py-5 border-bottom">
+    <header class="py-5 mt-5 border-bottom">
       <div class="container">
-        <div class="row align-items-center gx-md-5">
-          <!-- Left -->
-          <div class="col-md-6 mb-3 mb-md-0">
+        <div class="row align-items-center gx-5">
+          <div class="col-md-6">
             <h1 class="fs-3 fw-normal">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
               alias nulla minus sunt similique
             </h1>
-            <p class="fs-5 fw-light text-secondary">
+            <h2 class="fs-5 fw-light text-secondary mb-3">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Consectetur, debitis mollitia laudantium tenetur, tempora
               obcaecati provident voluptatum
-            </p>
-            <a
-              href="#!"
-              class="btn btn-success btn-sm d-inline-flex justify-content-center align-items-center"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 640 640"
-                width="20px"
-                height="20px"
-                class="me-2"
-              >
-                <path
-                  fill="#ffffff"
-                  d="M286 368C384.5 368 464.3 447.8 464.3 546.3C464.3 562.7 451 576 434.6 576L78 576C61.6 576 48.3 562.7 48.3 546.3C48.3 447.8 128.1 368 226.6 368L286 368zM585.7 169.9C593.5 159.2 608.5 156.8 619.2 164.6C629.9 172.4 632.3 187.4 624.5 198.1L522.1 338.9C517.9 344.6 511.4 348.3 504.4 348.7C497.4 349.1 490.4 346.5 485.5 341.4L439.1 293.4C429.9 283.9 430.1 268.7 439.7 259.5C449.2 250.3 464.4 250.6 473.6 260.1L500.1 287.5L585.7 169.8zM256.3 312C190 312 136.3 258.3 136.3 192C136.3 125.7 190 72 256.3 72C322.6 72 376.3 125.7 376.3 192C376.3 258.3 322.6 312 256.3 312z"
+            </h2>
+            
+            <div class="col-md-10 my-3 courses-search-form w-75">
+                <form class="d-flex mt-2 mt-lg-0" role="search">
+                <div class="input-group input-group-sm" >
+                  <input
+                  class="form-control me-0 form-control-sm"
+                  type="search"
+                  placeholder="Search for.."
+                  aria-label="Search"
                 />
-              </svg>
-              Sign-up to Get Started
-            </a>
+                <button
+                  class="btn btn-outline-success bg-success btn-sm"
+                  type="submit"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 640 640"
+                    width="20px"
+                    height="20px"
+                  >
+                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                      fill="#ffffff"
+                      d="M480 272C480 317.9 465.1 360.3 440 394.7L566.6 521.4C579.1 533.9 579.1 554.2 566.6 566.7C554.1 579.2 533.8 579.2 521.3 566.7L394.7 440C360.3 465.1 317.9 480 272 480C157.1 480 64 386.9 64 272C64 157.1 157.1 64 272 64C386.9 64 480 157.1 480 272zM272 416C351.5 416 416 351.5 416 272C416 192.5 351.5 128 272 128C192.5 128 128 192.5 128 272C128 351.5 192.5 416 272 416z"
+                    />
+                  </svg>
+                </button>
+                </div>
+              </form>
+            </div>
           </div>
-          <!-- Right -->
-          <div class="col-md-6">
-            <img class="rounded w-100" src="./img/main-header.jpg" alt="" />
+
+          <div class="col-md-6 mt-3 mt-md-0">
+            <img
+              src="./img/main-header.jpg"
+              alt=""
+              style="width: 100%"
+              class="rounded"
+            />
+          </div>
         </div>
       </div>
     </header>
     <!-- HEADER END -->
 
-    <!-- SITE FEATURES START -->
-     <section class="py-4 border-bottom">
-       <div class="container">      
-        <div class="row">
-          <!-- Item 1 -->
-          <div class="col-md-4">
-            <div class="feature-item bg-white border rounded p-3 d-flex align-items-center ">
-              <div>
-                <img src="./img/clock.png" alt="">
-              </div>
-              <div class="ms-3">
-                <h3 class="fs-5">Lorem ipsum dolor sit amet</h3>
-                <p class="small text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officiis modi similique nihil</p>
-              </div>
-            </div>
-          </div>
-
-         <!-- Item 2 -->
-          <div class="col-md-4 ">
-              <div class="feature-item bg-white border rounded p-3 d-flex align-items-center mt-3 mt-md-0">
-                <div>
-                  <img src="./img/responsive.png" alt="">
-                </div>
-                <div class="ms-3">
-                  <h3 class="fs-5">Lorem ipsum dolor sit amet</h3>
-                  <p class="small text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officiis modi similique nihil</p>
-                </div>
-              </div>
-          </div class="col-md-4">
-          
-            <!-- Item 3 -->
-            <div class="col-md-4 ">
-              <div class="feature-item bg-white border rounded p-3 d-flex align-items-center mt-3 mt-md-0">
-                <div>
-                  <img src="./img/tick.png" alt="">
-                </div>
-                <div class="ms-3">
-                  <h3 class="fs-5">Lorem ipsum dolor sit amet</h3>
-                  <p class="small text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officiis modi similique nihil</p>
-                </div>
-              </div>
-            </div class="col-md-4">
-        </div>
-       </div>
-     </section>
-    <!-- SITE FEATURES END -->
+    
 
     <!-- COURSE START -->
      <section class="py-4 border-bottom">
       <div class="container">
-        <!-- Row top -->
-        <div class="row justify-content-center">
-          <div class="col-md-5">
-            <div class="text-md-center">
-              <h4 class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, dolorem voluptatum. Temporibus amet mollitia</h4>
-              <p class="small text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident commodi quas adipisci quod? Similique, eligendi illum? Eum modi rem dolorem minus nisi dolore ullam!</p>
-              <a
-              href="#!"
-              class="btn btn-success btn-sm d-inline-flex justify-content-center align-items-center"
-              >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 16 16"
-                width="16px"
-                height="16px"
-                class="me-2"
-              >
-                <path
-                  fill="#ffffff"
-                  d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"
-                />
-                <path
-                  fill="#fff"
-                  d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"
-                />
-              </svg>
-              View all courses
-            </a>
-            </div>
-          </div>
-        </div>
-
         <!-- Row course -->
         <div class="row mt-5">
           <!-- Left -->
