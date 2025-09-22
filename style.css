@@ -10,3 +10,18 @@
 .list-group-item {
   background: #f8f9fa;
 }
+
+.subcribe {
+  background-image: url(./img/subscribe.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.brand-icon img {
+  width: 130px;
+}
+
+.blur-filter {
+  backdrop-filter: blur(8px);
+  background-color: #cccccc30;
+}
